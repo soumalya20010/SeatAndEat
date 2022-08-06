@@ -60,7 +60,11 @@ main .hero {
   z-index: 100; */
 }
 
-main h1,
+main h1{
+  font-style: italic;
+  font-family: Georgia, Helvetica, serif;
+  font-size: 3.5rem;
+}
 main h2 {
   font-size: 3.5rem;
   font-weight: 900;
@@ -73,6 +77,8 @@ main h2 {
 }
 
 .landing-hero p {
+  font-style: italic;
+  font-family: Georgia, Helvetica, serif;
   font-size: 1.175rem;
   color: var(--clr-text);
   line-height: 1.5;
@@ -107,6 +113,8 @@ main h2 {
 }
 
 .hero .get-started a {
+  font-family: Georgia, Helvetica, serif;
+  font-style: italic;
   font-size: 1.075rem;
   font-weight: bold;
 }
